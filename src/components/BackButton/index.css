@@ -1,0 +1,17 @@
+.backbutton{
+        position: fixed;
+        display: block !important;
+}
+
+.backbutton-toolbar {
+    --border-width: 0px !important;
+    border: 0px;
+}
+
+
+ion-toolbar.backbutton-toolbar {
+    --background: transparent !important;
+}
+ion-back-button{
+    color: #fff;
+}   

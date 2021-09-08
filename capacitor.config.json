@@ -1,6 +1,11 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "myApp",
+	"appName": "NewsFruit",
 	"webDir": "build",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"cordova": {
+		"preferences" : {
+			"Orientation": "portrait"
+		}
+	}
 }

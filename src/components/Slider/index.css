@@ -1,0 +1,70 @@
+/* Without setting height the slides will take up the height of the slide's content */
+
+.swiper-slide {
+  align-items: start;
+}
+.swiper-pagination {
+  display: inline-block;
+  position: relative;
+}
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #585858 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #bababa !important;
+  width: 32px !important;
+  height: 15px !important;
+  border-radius: 7.5px;
+}
+
+.slide {
+  position: relative;
+  display: flex;
+}
+
+.slide-gradient {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.7483368347338936) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.swiper-slide img {
+  z-index: -1;
+}
+
+.slide-label {
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+  padding: 0px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  .slide-label {
+    padding-left: 10px;
+  }
+}
+
+.slide-image {
+  background-size:cover;
+  background-position: center;
+}
+
+.spinner-wrapper {
+  padding-top: 50px;
+}

@@ -1,0 +1,75 @@
+.detailscreen-innerwrapper {
+  padding: 0px;
+}
+.detailscreen-thumbnail {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  max-height: 317px;
+}
+.detailscreen-wrapper {
+  background: #fafafa;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.detailscreen-image {
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.detailscreen-heart-icon {
+  height: auto;
+  z-index: 9999;
+  position: fixed;
+  right: 15px;
+  margin-top: 10px;
+}
+
+.detailscreen-category-title {
+  color: #0076ff !important;
+  font-size: 14px !important;
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-left: 10px;
+}
+
+.detailscreen-category-date {
+  color: #9b9b9b !important;
+  font-size: 12px !important;
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-right: 10px;
+}
+
+h3.detailscreen-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.detailscreen-social-icon {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+  max-width: 30px;
+}
+.detailscreen-margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p.detailscreen-content {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.detailscreen-video-wrapper {
+  background-color: #000;
+}

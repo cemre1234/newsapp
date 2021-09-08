@@ -1,0 +1,16 @@
+ion-item.settings {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* --inner-padding-bottom: 2px; */
+}
+
+ion-label.toggle-label {
+    margin-left: 5px;
+}
+
+ion-toggle{
+    --background: #C8C8C8;	
+    --background-checked: #eeba76;
+    height: 25px;
+    padding: 0px;
+}

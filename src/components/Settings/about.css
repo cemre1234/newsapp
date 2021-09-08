@@ -1,0 +1,22 @@
+ion-item.about-settings {
+    margin-left: 10px;
+    margin-right: 10px;
+    --highlight-height: 0px;
+    /* --inner-padding-bottom: 2px; */
+}
+
+a.label-href ion-label.toggle-label{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+a.label-href{
+    width: 100%;
+}
+
+a.label-href ion-icon{
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    color: #c3c2c2;
+}

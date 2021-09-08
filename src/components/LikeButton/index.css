@@ -1,0 +1,11 @@
+.like-button-wrapper {
+  z-index: 999;
+}
+.detailscreen-heart-icon-bigpicture{
+
+    height: auto;
+    z-index: 9999;
+    position: absolute;
+    right: 2px;
+    top: 10px;  
+}

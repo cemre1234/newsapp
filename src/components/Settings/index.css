@@ -1,0 +1,15 @@
+ion-header.settings{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.settings-social-icon{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    max-width: 30px;
+}
+
+.settings-social{
+    margin-top: 30px;
+}

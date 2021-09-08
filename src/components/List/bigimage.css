@@ -1,0 +1,27 @@
+.bigimage {
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bigimage-gradient {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.big-image {
+  background-size: cover;
+  background-position: center;
+}
+.bigimage-title {
+  right: 10px;
+  position: absolute;
+  top: 0px;
+  color: #fff;
+}
